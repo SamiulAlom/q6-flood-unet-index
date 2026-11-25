@@ -1,0 +1,3995 @@
+{
+ "bootstrap_seed": 20261124,
+ "replicates": 10000,
+ "smoke": false,
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "epochs": 60,
+ "provenance": {
+  "file_hashes_csv": "437142d2b093a72008530f452b7bf55b2aca2182376af17587190082fed10f87",
+  "chip_inventory_csv": "e220697f4b2d62c02d15094243b32285c02206467cd3673165bbce4040879b33",
+  "code": {
+   "p6_common.py": "e83857b9622b7acd7a74517997f0ca76cd0b960750f0d3c78fb2c9f6664c65c1",
+   "02_cache_index_CPU.py": "a6ba378b0180e4731c1bda2ad6be1877c4b7f4555ff8a5fe6ad6138e0292d883",
+   "03_train_GPU.py": "3a1a74beed2addf8800da108d81542ec2a347e2155402ebf3f46202e0e8d57c8",
+   "04_stats_figures_CPU.py": "879119d664b42ffb9295b71a3337e3a2e53a6e6bde6f041728d8dbce4ea3ed92"
+  }
+ },
+ "chips": [
+  {
+   "chip_id": "Bolivia_103757",
+   "event": "Bolivia",
+   "stratum": "clear",
+   "cloud_pixels_scored": 373,
+   "scored_pixels": 88077
+  },
+  {
+   "chip_id": "Bolivia_129334",
+   "event": "Bolivia",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2342,
+   "scored_pixels": 237814
+  },
+  {
+   "chip_id": "Bolivia_195474",
+   "event": "Bolivia",
+   "stratum": "clear",
+   "cloud_pixels_scored": 5529,
+   "scored_pixels": 261335
+  },
+  {
+   "chip_id": "Bolivia_23014",
+   "event": "Bolivia",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1101,
+   "scored_pixels": 209479
+  },
+  {
+   "chip_id": "Bolivia_233925",
+   "event": "Bolivia",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 60178,
+   "scored_pixels": 150537
+  },
+  {
+   "chip_id": "Bolivia_242570",
+   "event": "Bolivia",
+   "stratum": "clear",
+   "cloud_pixels_scored": 4799,
+   "scored_pixels": 175507
+  },
+  {
+   "chip_id": "Bolivia_290290",
+   "event": "Bolivia",
+   "stratum": "clear",
+   "cloud_pixels_scored": 7682,
+   "scored_pixels": 204633
+  },
+  {
+   "chip_id": "Bolivia_294583",
+   "event": "Bolivia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 18356,
+   "scored_pixels": 130472
+  },
+  {
+   "chip_id": "Bolivia_312675",
+   "event": "Bolivia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 25984,
+   "scored_pixels": 158008
+  },
+  {
+   "chip_id": "Bolivia_314919",
+   "event": "Bolivia",
+   "stratum": "clear",
+   "cloud_pixels_scored": 7723,
+   "scored_pixels": 188845
+  },
+  {
+   "chip_id": "Bolivia_360519",
+   "event": "Bolivia",
+   "stratum": "clear",
+   "cloud_pixels_scored": 534,
+   "scored_pixels": 254091
+  },
+  {
+   "chip_id": "Bolivia_379434",
+   "event": "Bolivia",
+   "stratum": "clear",
+   "cloud_pixels_scored": 276,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Bolivia_432776",
+   "event": "Bolivia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 26113,
+   "scored_pixels": 156889
+  },
+  {
+   "chip_id": "Bolivia_60373",
+   "event": "Bolivia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 18449,
+   "scored_pixels": 199019
+  },
+  {
+   "chip_id": "Bolivia_76104",
+   "event": "Bolivia",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 78467,
+   "scored_pixels": 190965
+  },
+  {
+   "chip_id": "Ghana_103272",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 141248,
+   "scored_pixels": 259269
+  },
+  {
+   "chip_id": "Ghana_1033830",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 5304,
+   "scored_pixels": 233229
+  },
+  {
+   "chip_id": "Ghana_1078550",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_1089161",
+   "event": "Ghana",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 59332,
+   "scored_pixels": 236164
+  },
+  {
+   "chip_id": "Ghana_11745",
+   "event": "Ghana",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 68807,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_124834",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_128663",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 96053,
+   "scored_pixels": 169329
+  },
+  {
+   "chip_id": "Ghana_132163",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 53945,
+   "scored_pixels": 55761
+  },
+  {
+   "chip_id": "Ghana_134751",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 34805,
+   "scored_pixels": 43016
+  },
+  {
+   "chip_id": "Ghana_135389",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 24624
+  },
+  {
+   "chip_id": "Ghana_141271",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_141910",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 142821,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_142312",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 11223,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_144050",
+   "event": "Ghana",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 6548,
+   "scored_pixels": 23551
+  },
+  {
+   "chip_id": "Ghana_146222",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 107675,
+   "scored_pixels": 181656
+  },
+  {
+   "chip_id": "Ghana_147015",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_154838",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 32286,
+   "scored_pixels": 42107
+  },
+  {
+   "chip_id": "Ghana_156478",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_161233",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 1118,
+   "scored_pixels": 1892
+  },
+  {
+   "chip_id": "Ghana_167233",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_168875",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 13890,
+   "scored_pixels": 41796
+  },
+  {
+   "chip_id": "Ghana_187318",
+   "event": "Ghana",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 31944,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_194723",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 33257,
+   "scored_pixels": 47408
+  },
+  {
+   "chip_id": "Ghana_247288",
+   "event": "Ghana",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 11271,
+   "scored_pixels": 40174
+  },
+  {
+   "chip_id": "Ghana_24858",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2717,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_264787",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 152109,
+   "scored_pixels": 181975
+  },
+  {
+   "chip_id": "Ghana_308249",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 89,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_313799",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2063,
+   "scored_pixels": 244464
+  },
+  {
+   "chip_id": "Ghana_319168",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 73086,
+   "scored_pixels": 171624
+  },
+  {
+   "chip_id": "Ghana_359826",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_362274",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2908,
+   "scored_pixels": 259407
+  },
+  {
+   "chip_id": "Ghana_406026",
+   "event": "Ghana",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 73320,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_45911",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 20290,
+   "scored_pixels": 29269
+  },
+  {
+   "chip_id": "Ghana_495107",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 4313,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_49890",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2382,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_53713",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_597288",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_61925",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1938,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_7496",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 636,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_8090",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 103224,
+   "scored_pixels": 194666
+  },
+  {
+   "chip_id": "Ghana_83200",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 67196,
+   "scored_pixels": 98215
+  },
+  {
+   "chip_id": "Ghana_866994",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 48400,
+   "scored_pixels": 117511
+  },
+  {
+   "chip_id": "Ghana_868803",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 7466,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_887131",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1513,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_895194",
+   "event": "Ghana",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 50408,
+   "scored_pixels": 252706
+  },
+  {
+   "chip_id": "Ghana_953791",
+   "event": "Ghana",
+   "stratum": "clear",
+   "cloud_pixels_scored": 159,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Ghana_97059",
+   "event": "Ghana",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 26411,
+   "scored_pixels": 27394
+  },
+  {
+   "chip_id": "Ghana_97516",
+   "event": "Ghana",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 11126,
+   "scored_pixels": 187555
+  },
+  {
+   "chip_id": "India_1017769",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 30491,
+   "scored_pixels": 172971
+  },
+  {
+   "chip_id": "India_1018317",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3859,
+   "scored_pixels": 196977
+  },
+  {
+   "chip_id": "India_1018327",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262142
+  },
+  {
+   "chip_id": "India_103447",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 30320,
+   "scored_pixels": 163567
+  },
+  {
+   "chip_id": "India_1050276",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 42588,
+   "scored_pixels": 255185
+  },
+  {
+   "chip_id": "India_1068117",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 6439,
+   "scored_pixels": 229712
+  },
+  {
+   "chip_id": "India_1072277",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262142
+  },
+  {
+   "chip_id": "India_118868",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 162148
+  },
+  {
+   "chip_id": "India_135434",
+   "event": "India",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 70737,
+   "scored_pixels": 117150
+  },
+  {
+   "chip_id": "India_136196",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 22583,
+   "scored_pixels": 211744
+  },
+  {
+   "chip_id": "India_164336",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 95,
+   "scored_pixels": 259101
+  },
+  {
+   "chip_id": "India_166709",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 7827,
+   "scored_pixels": 256894
+  },
+  {
+   "chip_id": "India_177319",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 17680,
+   "scored_pixels": 257225
+  },
+  {
+   "chip_id": "India_179238",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 17468,
+   "scored_pixels": 192482
+  },
+  {
+   "chip_id": "India_180633",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 18815,
+   "scored_pixels": 164555
+  },
+  {
+   "chip_id": "India_207862",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 12822,
+   "scored_pixels": 200115
+  },
+  {
+   "chip_id": "India_244057",
+   "event": "India",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 54165,
+   "scored_pixels": 160537
+  },
+  {
+   "chip_id": "India_25540",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 44321,
+   "scored_pixels": 188625
+  },
+  {
+   "chip_id": "India_265762",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 11356,
+   "scored_pixels": 147296
+  },
+  {
+   "chip_id": "India_273873",
+   "event": "India",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 48819,
+   "scored_pixels": 155608
+  },
+  {
+   "chip_id": "India_285297",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 13990,
+   "scored_pixels": 245042
+  },
+  {
+   "chip_id": "India_287642",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 15263,
+   "scored_pixels": 115377
+  },
+  {
+   "chip_id": "India_324254",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "India_373039",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 9740,
+   "scored_pixels": 242783
+  },
+  {
+   "chip_id": "India_383430",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 6738,
+   "scored_pixels": 251271
+  },
+  {
+   "chip_id": "India_391908",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 36843,
+   "scored_pixels": 211832
+  },
+  {
+   "chip_id": "India_399883",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 313,
+   "scored_pixels": 262119
+  },
+  {
+   "chip_id": "India_44475",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 7644,
+   "scored_pixels": 260175
+  },
+  {
+   "chip_id": "India_500266",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 678,
+   "scored_pixels": 262141
+  },
+  {
+   "chip_id": "India_533192",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 7886,
+   "scored_pixels": 135257
+  },
+  {
+   "chip_id": "India_534470",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1376,
+   "scored_pixels": 250570
+  },
+  {
+   "chip_id": "India_56450",
+   "event": "India",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 70920,
+   "scored_pixels": 181248
+  },
+  {
+   "chip_id": "India_566697",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 16916,
+   "scored_pixels": 215703
+  },
+  {
+   "chip_id": "India_570384",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 23129,
+   "scored_pixels": 242000
+  },
+  {
+   "chip_id": "India_591317",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 14190,
+   "scored_pixels": 246049
+  },
+  {
+   "chip_id": "India_591549",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 9373,
+   "scored_pixels": 245709
+  },
+  {
+   "chip_id": "India_592446",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 11250,
+   "scored_pixels": 224355
+  },
+  {
+   "chip_id": "India_59460",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 19819,
+   "scored_pixels": 209353
+  },
+  {
+   "chip_id": "India_624341",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 140,
+   "scored_pixels": 262142
+  },
+  {
+   "chip_id": "India_631692",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "India_652725",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1931,
+   "scored_pixels": 262094
+  },
+  {
+   "chip_id": "India_664410",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262142
+  },
+  {
+   "chip_id": "India_691027",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 9226,
+   "scored_pixels": 254034
+  },
+  {
+   "chip_id": "India_698338",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 15219,
+   "scored_pixels": 227984
+  },
+  {
+   "chip_id": "India_70352",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 7013,
+   "scored_pixels": 239229
+  },
+  {
+   "chip_id": "India_707886",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 6290,
+   "scored_pixels": 256881
+  },
+  {
+   "chip_id": "India_73419",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 7563,
+   "scored_pixels": 178934
+  },
+  {
+   "chip_id": "India_747970",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 16575,
+   "scored_pixels": 246517
+  },
+  {
+   "chip_id": "India_747992",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 25,
+   "scored_pixels": 262087
+  },
+  {
+   "chip_id": "India_764946",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 24524,
+   "scored_pixels": 242502
+  },
+  {
+   "chip_id": "India_769408",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 32316,
+   "scored_pixels": 175907
+  },
+  {
+   "chip_id": "India_772630",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 29817,
+   "scored_pixels": 155332
+  },
+  {
+   "chip_id": "India_773682",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 8579,
+   "scored_pixels": 252793
+  },
+  {
+   "chip_id": "India_774689",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 14484,
+   "scored_pixels": 237980
+  },
+  {
+   "chip_id": "India_79637",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "India_80221",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1500,
+   "scored_pixels": 151793
+  },
+  {
+   "chip_id": "India_804466",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262134
+  },
+  {
+   "chip_id": "India_828067",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 37895,
+   "scored_pixels": 183120
+  },
+  {
+   "chip_id": "India_833266",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 14524,
+   "scored_pixels": 219674
+  },
+  {
+   "chip_id": "India_842775",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3165,
+   "scored_pixels": 246418
+  },
+  {
+   "chip_id": "India_869358",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 24046,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "India_900498",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 14,
+   "scored_pixels": 261992
+  },
+  {
+   "chip_id": "India_91379",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262133
+  },
+  {
+   "chip_id": "India_943439",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3100,
+   "scored_pixels": 250096
+  },
+  {
+   "chip_id": "India_952728",
+   "event": "India",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 40139,
+   "scored_pixels": 188716
+  },
+  {
+   "chip_id": "India_956930",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3479,
+   "scored_pixels": 237130
+  },
+  {
+   "chip_id": "India_979278",
+   "event": "India",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 78183,
+   "scored_pixels": 109069
+  },
+  {
+   "chip_id": "India_981708",
+   "event": "India",
+   "stratum": "clear",
+   "cloud_pixels_scored": 209,
+   "scored_pixels": 224024
+  },
+  {
+   "chip_id": "Mekong_1111068",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1238,
+   "scored_pixels": 262098
+  },
+  {
+   "chip_id": "Mekong_1149855",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 7535,
+   "scored_pixels": 224775
+  },
+  {
+   "chip_id": "Mekong_1191208",
+   "event": "Mekong",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 45948,
+   "scored_pixels": 202312
+  },
+  {
+   "chip_id": "Mekong_119477",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2964,
+   "scored_pixels": 260952
+  },
+  {
+   "chip_id": "Mekong_1248200",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 20,
+   "scored_pixels": 260988
+  },
+  {
+   "chip_id": "Mekong_1282475",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Mekong_1395593",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 488,
+   "scored_pixels": 261728
+  },
+  {
+   "chip_id": "Mekong_1396181",
+   "event": "Mekong",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 15243,
+   "scored_pixels": 243062
+  },
+  {
+   "chip_id": "Mekong_1413877",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 12744,
+   "scored_pixels": 256968
+  },
+  {
+   "chip_id": "Mekong_1439641",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 12,
+   "scored_pixels": 262083
+  },
+  {
+   "chip_id": "Mekong_1443339",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 29,
+   "scored_pixels": 262135
+  },
+  {
+   "chip_id": "Mekong_16233",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262132
+  },
+  {
+   "chip_id": "Mekong_213094",
+   "event": "Mekong",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 51973,
+   "scored_pixels": 230584
+  },
+  {
+   "chip_id": "Mekong_221789",
+   "event": "Mekong",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 72128,
+   "scored_pixels": 215327
+  },
+  {
+   "chip_id": "Mekong_254910",
+   "event": "Mekong",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 126443,
+   "scored_pixels": 205495
+  },
+  {
+   "chip_id": "Mekong_269835",
+   "event": "Mekong",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 20563,
+   "scored_pixels": 212236
+  },
+  {
+   "chip_id": "Mekong_293769",
+   "event": "Mekong",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 13535,
+   "scored_pixels": 231060
+  },
+  {
+   "chip_id": "Mekong_333434",
+   "event": "Mekong",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 44064,
+   "scored_pixels": 203133
+  },
+  {
+   "chip_id": "Mekong_342411",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 216,
+   "scored_pixels": 262141
+  },
+  {
+   "chip_id": "Mekong_382276",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262111
+  },
+  {
+   "chip_id": "Mekong_424793",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 9944,
+   "scored_pixels": 258487
+  },
+  {
+   "chip_id": "Mekong_45934",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 565,
+   "scored_pixels": 261859
+  },
+  {
+   "chip_id": "Mekong_474783",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262119
+  },
+  {
+   "chip_id": "Mekong_52610",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 20,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Mekong_596495",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2969,
+   "scored_pixels": 229484
+  },
+  {
+   "chip_id": "Mekong_774566",
+   "event": "Mekong",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 21105,
+   "scored_pixels": 227728
+  },
+  {
+   "chip_id": "Mekong_846007",
+   "event": "Mekong",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 54320,
+   "scored_pixels": 164030
+  },
+  {
+   "chip_id": "Mekong_922373",
+   "event": "Mekong",
+   "stratum": "clear",
+   "cloud_pixels_scored": 5,
+   "scored_pixels": 262138
+  },
+  {
+   "chip_id": "Mekong_977338",
+   "event": "Mekong",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 25260,
+   "scored_pixels": 176958
+  },
+  {
+   "chip_id": "Mekong_98310",
+   "event": "Mekong",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 11375,
+   "scored_pixels": 182771
+  },
+  {
+   "chip_id": "Nigeria_1095404",
+   "event": "Nigeria",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 68033,
+   "scored_pixels": 252283
+  },
+  {
+   "chip_id": "Nigeria_143329",
+   "event": "Nigeria",
+   "stratum": "clear",
+   "cloud_pixels_scored": 993,
+   "scored_pixels": 249500
+  },
+  {
+   "chip_id": "Nigeria_22088",
+   "event": "Nigeria",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 222646
+  },
+  {
+   "chip_id": "Nigeria_225131",
+   "event": "Nigeria",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 23763,
+   "scored_pixels": 241255
+  },
+  {
+   "chip_id": "Nigeria_31096",
+   "event": "Nigeria",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 110308,
+   "scored_pixels": 217487
+  },
+  {
+   "chip_id": "Nigeria_35845",
+   "event": "Nigeria",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 51711,
+   "scored_pixels": 213042
+  },
+  {
+   "chip_id": "Nigeria_417184",
+   "event": "Nigeria",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 19096,
+   "scored_pixels": 59069
+  },
+  {
+   "chip_id": "Nigeria_439488",
+   "event": "Nigeria",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 61211,
+   "scored_pixels": 229200
+  },
+  {
+   "chip_id": "Nigeria_529525",
+   "event": "Nigeria",
+   "stratum": "clear",
+   "cloud_pixels_scored": 8085,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Nigeria_598959",
+   "event": "Nigeria",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 17895,
+   "scored_pixels": 211208
+  },
+  {
+   "chip_id": "Nigeria_600295",
+   "event": "Nigeria",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 48959,
+   "scored_pixels": 181691
+  },
+  {
+   "chip_id": "Nigeria_707067",
+   "event": "Nigeria",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1590,
+   "scored_pixels": 261359
+  },
+  {
+   "chip_id": "Nigeria_78061",
+   "event": "Nigeria",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 64411,
+   "scored_pixels": 228886
+  },
+  {
+   "chip_id": "Nigeria_812045",
+   "event": "Nigeria",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2847,
+   "scored_pixels": 237134
+  },
+  {
+   "chip_id": "Nigeria_81933",
+   "event": "Nigeria",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 13133,
+   "scored_pixels": 246268
+  },
+  {
+   "chip_id": "Nigeria_820924",
+   "event": "Nigeria",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3330,
+   "scored_pixels": 262143
+  },
+  {
+   "chip_id": "Nigeria_952958",
+   "event": "Nigeria",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 148928,
+   "scored_pixels": 227674
+  },
+  {
+   "chip_id": "Nigeria_984831",
+   "event": "Nigeria",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1182,
+   "scored_pixels": 240158
+  },
+  {
+   "chip_id": "Pakistan_1027214",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 155111,
+   "scored_pixels": 158958
+  },
+  {
+   "chip_id": "Pakistan_1036366",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 95182,
+   "scored_pixels": 110380
+  },
+  {
+   "chip_id": "Pakistan_132143",
+   "event": "Pakistan",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3506,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Pakistan_167553",
+   "event": "Pakistan",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 49320,
+   "scored_pixels": 247105
+  },
+  {
+   "chip_id": "Pakistan_210595",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 100588,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Pakistan_211386",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 171465,
+   "scored_pixels": 255405
+  },
+  {
+   "chip_id": "Pakistan_246510",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 177764,
+   "scored_pixels": 258817
+  },
+  {
+   "chip_id": "Pakistan_246718",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 219963,
+   "scored_pixels": 235278
+  },
+  {
+   "chip_id": "Pakistan_336228",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 132312,
+   "scored_pixels": 132471
+  },
+  {
+   "chip_id": "Pakistan_35915",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 75431,
+   "scored_pixels": 129233
+  },
+  {
+   "chip_id": "Pakistan_366265",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 49729,
+   "scored_pixels": 127291
+  },
+  {
+   "chip_id": "Pakistan_401863",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 119051,
+   "scored_pixels": 258845
+  },
+  {
+   "chip_id": "Pakistan_43105",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 120658,
+   "scored_pixels": 261675
+  },
+  {
+   "chip_id": "Pakistan_474121",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 92347,
+   "scored_pixels": 180789
+  },
+  {
+   "chip_id": "Pakistan_528249",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 68298,
+   "scored_pixels": 76982
+  },
+  {
+   "chip_id": "Pakistan_548910",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 173762,
+   "scored_pixels": 235696
+  },
+  {
+   "chip_id": "Pakistan_65724",
+   "event": "Pakistan",
+   "stratum": "clear",
+   "cloud_pixels_scored": 30,
+   "scored_pixels": 262143
+  },
+  {
+   "chip_id": "Pakistan_664885",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 54807,
+   "scored_pixels": 73010
+  },
+  {
+   "chip_id": "Pakistan_667363",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 160189,
+   "scored_pixels": 162484
+  },
+  {
+   "chip_id": "Pakistan_694942",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 80196,
+   "scored_pixels": 191444
+  },
+  {
+   "chip_id": "Pakistan_70625",
+   "event": "Pakistan",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 21144,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Pakistan_712873",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 118821,
+   "scored_pixels": 119557
+  },
+  {
+   "chip_id": "Pakistan_740461",
+   "event": "Pakistan",
+   "stratum": "clear",
+   "cloud_pixels_scored": 6526,
+   "scored_pixels": 211456
+  },
+  {
+   "chip_id": "Pakistan_760290",
+   "event": "Pakistan",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 46004,
+   "scored_pixels": 233498
+  },
+  {
+   "chip_id": "Pakistan_849790",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 123237,
+   "scored_pixels": 257239
+  },
+  {
+   "chip_id": "Pakistan_909806",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 115695,
+   "scored_pixels": 116287
+  },
+  {
+   "chip_id": "Pakistan_94095",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 89590,
+   "scored_pixels": 180570
+  },
+  {
+   "chip_id": "Pakistan_9684",
+   "event": "Pakistan",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 108732,
+   "scored_pixels": 113550
+  },
+  {
+   "chip_id": "Paraguay_1019808",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_1029042",
+   "event": "Paraguay",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 19169,
+   "scored_pixels": 223004
+  },
+  {
+   "chip_id": "Paraguay_1029191",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1655,
+   "scored_pixels": 253937
+  },
+  {
+   "chip_id": "Paraguay_1056717",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_1076204",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_11869",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 5401,
+   "scored_pixels": 257933
+  },
+  {
+   "chip_id": "Paraguay_126224",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 262144,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_12870",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 262144,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_148318",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 240076,
+   "scored_pixels": 240076
+  },
+  {
+   "chip_id": "Paraguay_149787",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 13,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_149830",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 245,
+   "scored_pixels": 260440
+  },
+  {
+   "chip_id": "Paraguay_153941",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_172476",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 305,
+   "scored_pixels": 262143
+  },
+  {
+   "chip_id": "Paraguay_179624",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 6578,
+   "scored_pixels": 262109
+  },
+  {
+   "chip_id": "Paraguay_191503",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 362,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_198534",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 195487,
+   "scored_pixels": 195487
+  },
+  {
+   "chip_id": "Paraguay_205585",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 262144,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_212687",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_215904",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 226308,
+   "scored_pixels": 226308
+  },
+  {
+   "chip_id": "Paraguay_224845",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 103920
+  },
+  {
+   "chip_id": "Paraguay_225187",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 260732,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_232281",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_24341",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 110,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_246154",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 185,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_247656",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 662,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_252217",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 255778,
+   "scored_pixels": 255778
+  },
+  {
+   "chip_id": "Paraguay_271769",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 20,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_280900",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 243,
+   "scored_pixels": 262142
+  },
+  {
+   "chip_id": "Paraguay_284928",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_305760",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 6651,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_339807",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 5188,
+   "scored_pixels": 214619
+  },
+  {
+   "chip_id": "Paraguay_34417",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 50026
+  },
+  {
+   "chip_id": "Paraguay_36015",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 262139,
+   "scored_pixels": 262139
+  },
+  {
+   "chip_id": "Paraguay_36146",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 262144,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_403081",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 5844,
+   "scored_pixels": 249836
+  },
+  {
+   "chip_id": "Paraguay_40936",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 215331,
+   "scored_pixels": 215331
+  },
+  {
+   "chip_id": "Paraguay_44682",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_470303",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 102,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_482517",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 259600
+  },
+  {
+   "chip_id": "Paraguay_48673",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 149393,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_511199",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_54421",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 61,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_581976",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 262144,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_59731",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 4669,
+   "scored_pixels": 255656
+  },
+  {
+   "chip_id": "Paraguay_605682",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_62897",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 13,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_648632",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_651904",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_657443",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 422,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_683296",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1325,
+   "scored_pixels": 259578
+  },
+  {
+   "chip_id": "Paraguay_721886",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_76868",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262121
+  },
+  {
+   "chip_id": "Paraguay_7894",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 72216,
+   "scored_pixels": 202187
+  },
+  {
+   "chip_id": "Paraguay_790830",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 4067,
+   "scored_pixels": 261199
+  },
+  {
+   "chip_id": "Paraguay_791364",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 36,
+   "scored_pixels": 261735
+  },
+  {
+   "chip_id": "Paraguay_792268",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 240,
+   "scored_pixels": 262120
+  },
+  {
+   "chip_id": "Paraguay_795075",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 4307,
+   "scored_pixels": 262138
+  },
+  {
+   "chip_id": "Paraguay_80102",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 156354,
+   "scored_pixels": 262143
+  },
+  {
+   "chip_id": "Paraguay_822142",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_868895",
+   "event": "Paraguay",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 30785,
+   "scored_pixels": 175465
+  },
+  {
+   "chip_id": "Paraguay_892933",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 5,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_896458",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 9030,
+   "scored_pixels": 240678
+  },
+  {
+   "chip_id": "Paraguay_913449",
+   "event": "Paraguay",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 262144,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_921838",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 290,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_934240",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Paraguay_989230",
+   "event": "Paraguay",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 13563,
+   "scored_pixels": 219924
+  },
+  {
+   "chip_id": "Paraguay_997480",
+   "event": "Paraguay",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Somalia_1068756",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 35703,
+   "scored_pixels": 171973
+  },
+  {
+   "chip_id": "Somalia_1087508",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 28908,
+   "scored_pixels": 212943
+  },
+  {
+   "chip_id": "Somalia_12849",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 28166,
+   "scored_pixels": 191302
+  },
+  {
+   "chip_id": "Somalia_166342",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 30326,
+   "scored_pixels": 220577
+  },
+  {
+   "chip_id": "Somalia_167787",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 35008,
+   "scored_pixels": 220505
+  },
+  {
+   "chip_id": "Somalia_195014",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 28706,
+   "scored_pixels": 233650
+  },
+  {
+   "chip_id": "Somalia_205466",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 14325,
+   "scored_pixels": 240083
+  },
+  {
+   "chip_id": "Somalia_230192",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 25315,
+   "scored_pixels": 232522
+  },
+  {
+   "chip_id": "Somalia_256539",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 35197,
+   "scored_pixels": 221259
+  },
+  {
+   "chip_id": "Somalia_295782",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 39389,
+   "scored_pixels": 203048
+  },
+  {
+   "chip_id": "Somalia_322855",
+   "event": "Somalia",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2310,
+   "scored_pixels": 255044
+  },
+  {
+   "chip_id": "Somalia_32375",
+   "event": "Somalia",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 94839,
+   "scored_pixels": 134096
+  },
+  {
+   "chip_id": "Somalia_371421",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 36497,
+   "scored_pixels": 230962
+  },
+  {
+   "chip_id": "Somalia_60129",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 53959,
+   "scored_pixels": 222316
+  },
+  {
+   "chip_id": "Somalia_61368",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 25512,
+   "scored_pixels": 212969
+  },
+  {
+   "chip_id": "Somalia_626316",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 26350,
+   "scored_pixels": 169085
+  },
+  {
+   "chip_id": "Somalia_649376",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 28832,
+   "scored_pixels": 213929
+  },
+  {
+   "chip_id": "Somalia_685158",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 32198,
+   "scored_pixels": 184172
+  },
+  {
+   "chip_id": "Somalia_699062",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 17284,
+   "scored_pixels": 203209
+  },
+  {
+   "chip_id": "Somalia_7931",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 52415,
+   "scored_pixels": 201972
+  },
+  {
+   "chip_id": "Somalia_886726",
+   "event": "Somalia",
+   "stratum": "clear",
+   "cloud_pixels_scored": 779,
+   "scored_pixels": 262036
+  },
+  {
+   "chip_id": "Somalia_93023",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 26973,
+   "scored_pixels": 187825
+  },
+  {
+   "chip_id": "Somalia_94102",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 33620,
+   "scored_pixels": 241360
+  },
+  {
+   "chip_id": "Somalia_970508",
+   "event": "Somalia",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 35524,
+   "scored_pixels": 217119
+  },
+  {
+   "chip_id": "Somalia_989553",
+   "event": "Somalia",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 36655,
+   "scored_pixels": 110303
+  },
+  {
+   "chip_id": "Somalia_992457",
+   "event": "Somalia",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 55264,
+   "scored_pixels": 181140
+  },
+  {
+   "chip_id": "Spain_1167260",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 461,
+   "scored_pixels": 262119
+  },
+  {
+   "chip_id": "Spain_1199913",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1451,
+   "scored_pixels": 262143
+  },
+  {
+   "chip_id": "Spain_2472849",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3982,
+   "scored_pixels": 261759
+  },
+  {
+   "chip_id": "Spain_2523247",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1927,
+   "scored_pixels": 262039
+  },
+  {
+   "chip_id": "Spain_2594119",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 6923,
+   "scored_pixels": 262009
+  },
+  {
+   "chip_id": "Spain_2938657",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1356,
+   "scored_pixels": 262074
+  },
+  {
+   "chip_id": "Spain_3285448",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1051,
+   "scored_pixels": 262136
+  },
+  {
+   "chip_id": "Spain_337094",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2985,
+   "scored_pixels": 262056
+  },
+  {
+   "chip_id": "Spain_4282030",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 821,
+   "scored_pixels": 262123
+  },
+  {
+   "chip_id": "Spain_4915752",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 396,
+   "scored_pixels": 262128
+  },
+  {
+   "chip_id": "Spain_5650136",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 541,
+   "scored_pixels": 171596
+  },
+  {
+   "chip_id": "Spain_5678382",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3175,
+   "scored_pixels": 262117
+  },
+  {
+   "chip_id": "Spain_5816638",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2809,
+   "scored_pixels": 262052
+  },
+  {
+   "chip_id": "Spain_5923267",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 131,
+   "scored_pixels": 218743
+  },
+  {
+   "chip_id": "Spain_6095801",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 960,
+   "scored_pixels": 262062
+  },
+  {
+   "chip_id": "Spain_6199994",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 9147,
+   "scored_pixels": 261902
+  },
+  {
+   "chip_id": "Spain_6537196",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1022,
+   "scored_pixels": 262106
+  },
+  {
+   "chip_id": "Spain_6860600",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2583,
+   "scored_pixels": 261969
+  },
+  {
+   "chip_id": "Spain_716716",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2337,
+   "scored_pixels": 262067
+  },
+  {
+   "chip_id": "Spain_7370579",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 955,
+   "scored_pixels": 262045
+  },
+  {
+   "chip_id": "Spain_7387658",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1155,
+   "scored_pixels": 262057
+  },
+  {
+   "chip_id": "Spain_7558720",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1103,
+   "scored_pixels": 261984
+  },
+  {
+   "chip_id": "Spain_7604243",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3516,
+   "scored_pixels": 262080
+  },
+  {
+   "chip_id": "Spain_7786924",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1677,
+   "scored_pixels": 262111
+  },
+  {
+   "chip_id": "Spain_7856615",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2968,
+   "scored_pixels": 261930
+  },
+  {
+   "chip_id": "Spain_8104659",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2358,
+   "scored_pixels": 262128
+  },
+  {
+   "chip_id": "Spain_8154154",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 931,
+   "scored_pixels": 262118
+  },
+  {
+   "chip_id": "Spain_8199661",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 707,
+   "scored_pixels": 262036
+  },
+  {
+   "chip_id": "Spain_8372658",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1835,
+   "scored_pixels": 262029
+  },
+  {
+   "chip_id": "Spain_8565131",
+   "event": "Spain",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3084,
+   "scored_pixels": 262084
+  },
+  {
+   "chip_id": "Sri-Lanka_101973",
+   "event": "Sri-Lanka",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 29195,
+   "scored_pixels": 262143
+  },
+  {
+   "chip_id": "Sri-Lanka_1038087",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 21,
+   "scored_pixels": 262143
+  },
+  {
+   "chip_id": "Sri-Lanka_1049830",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 189206,
+   "scored_pixels": 190233
+  },
+  {
+   "chip_id": "Sri-Lanka_117737",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2401,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_120804",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 232252,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_132922",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 12400,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_135713",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 118030,
+   "scored_pixels": 134330
+  },
+  {
+   "chip_id": "Sri-Lanka_14484",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 70475,
+   "scored_pixels": 232015
+  },
+  {
+   "chip_id": "Sri-Lanka_152185",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_163406",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 99851,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_178753",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 9091,
+   "scored_pixels": 253873
+  },
+  {
+   "chip_id": "Sri-Lanka_233609",
+   "event": "Sri-Lanka",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 33853,
+   "scored_pixels": 257120
+  },
+  {
+   "chip_id": "Sri-Lanka_236030",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 106181,
+   "scored_pixels": 206088
+  },
+  {
+   "chip_id": "Sri-Lanka_236628",
+   "event": "Sri-Lanka",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 35481,
+   "scored_pixels": 262142
+  },
+  {
+   "chip_id": "Sri-Lanka_249079",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 80859,
+   "scored_pixels": 164775
+  },
+  {
+   "chip_id": "Sri-Lanka_31559",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 75963,
+   "scored_pixels": 218795
+  },
+  {
+   "chip_id": "Sri-Lanka_321316",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 4957,
+   "scored_pixels": 262133
+  },
+  {
+   "chip_id": "Sri-Lanka_377277",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 235566,
+   "scored_pixels": 259388
+  },
+  {
+   "chip_id": "Sri-Lanka_400518",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 122286,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_450918",
+   "event": "Sri-Lanka",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 9101,
+   "scored_pixels": 99126
+  },
+  {
+   "chip_id": "Sri-Lanka_49764",
+   "event": "Sri-Lanka",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 41317,
+   "scored_pixels": 243327
+  },
+  {
+   "chip_id": "Sri-Lanka_52223",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_523539",
+   "event": "Sri-Lanka",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 22413,
+   "scored_pixels": 218481
+  },
+  {
+   "chip_id": "Sri-Lanka_534068",
+   "event": "Sri-Lanka",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 20407,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_551926",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1328,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_55568",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 104797,
+   "scored_pixels": 212858
+  },
+  {
+   "chip_id": "Sri-Lanka_579082",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 197034,
+   "scored_pixels": 208263
+  },
+  {
+   "chip_id": "Sri-Lanka_612594",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2282,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_63307",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_649970",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3724,
+   "scored_pixels": 260855
+  },
+  {
+   "chip_id": "Sri-Lanka_653336",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 45,
+   "scored_pixels": 262141
+  },
+  {
+   "chip_id": "Sri-Lanka_713926",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 86,
+   "scored_pixels": 262104
+  },
+  {
+   "chip_id": "Sri-Lanka_748447",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 89772,
+   "scored_pixels": 249187
+  },
+  {
+   "chip_id": "Sri-Lanka_845821",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3907,
+   "scored_pixels": 240758
+  },
+  {
+   "chip_id": "Sri-Lanka_847275",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 162420,
+   "scored_pixels": 231361
+  },
+  {
+   "chip_id": "Sri-Lanka_849649",
+   "event": "Sri-Lanka",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 64922,
+   "scored_pixels": 218207
+  },
+  {
+   "chip_id": "Sri-Lanka_85652",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 103203,
+   "scored_pixels": 197368
+  },
+  {
+   "chip_id": "Sri-Lanka_883641",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3738,
+   "scored_pixels": 262144
+  },
+  {
+   "chip_id": "Sri-Lanka_916628",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 98234,
+   "scored_pixels": 259961
+  },
+  {
+   "chip_id": "Sri-Lanka_922192",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 89487,
+   "scored_pixels": 239783
+  },
+  {
+   "chip_id": "Sri-Lanka_92824",
+   "event": "Sri-Lanka",
+   "stratum": "clear",
+   "cloud_pixels_scored": 11590,
+   "scored_pixels": 246506
+  },
+  {
+   "chip_id": "Sri-Lanka_956740",
+   "event": "Sri-Lanka",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 194848,
+   "scored_pixels": 202069
+  },
+  {
+   "chip_id": "USA_1010394",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 29,
+   "scored_pixels": 262131
+  },
+  {
+   "chip_id": "USA_1039203",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 23,
+   "scored_pixels": 262112
+  },
+  {
+   "chip_id": "USA_1049586",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 181,
+   "scored_pixels": 262061
+  },
+  {
+   "chip_id": "USA_1068362",
+   "event": "USA",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 23669,
+   "scored_pixels": 262124
+  },
+  {
+   "chip_id": "USA_1082482",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262130
+  },
+  {
+   "chip_id": "USA_11422",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 177,
+   "scored_pixels": 262142
+  },
+  {
+   "chip_id": "USA_114964",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262125
+  },
+  {
+   "chip_id": "USA_115033",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 16,
+   "scored_pixels": 262109
+  },
+  {
+   "chip_id": "USA_170264",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 3167,
+   "scored_pixels": 261982
+  },
+  {
+   "chip_id": "USA_179917",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1848,
+   "scored_pixels": 262094
+  },
+  {
+   "chip_id": "USA_181263",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 208171
+  },
+  {
+   "chip_id": "USA_181503",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 24,
+   "scored_pixels": 262115
+  },
+  {
+   "chip_id": "USA_19225",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262122
+  },
+  {
+   "chip_id": "USA_198411",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 84222
+  },
+  {
+   "chip_id": "USA_211406",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 8,
+   "scored_pixels": 262101
+  },
+  {
+   "chip_id": "USA_217598",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 10,
+   "scored_pixels": 257621
+  },
+  {
+   "chip_id": "USA_224165",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 40,
+   "scored_pixels": 262126
+  },
+  {
+   "chip_id": "USA_225017",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 4,
+   "scored_pixels": 262138
+  },
+  {
+   "chip_id": "USA_231124",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 192,
+   "scored_pixels": 129409
+  },
+  {
+   "chip_id": "USA_232060",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 4,
+   "scored_pixels": 262127
+  },
+  {
+   "chip_id": "USA_251323",
+   "event": "USA",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 25833,
+   "scored_pixels": 261038
+  },
+  {
+   "chip_id": "USA_260929",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262134
+  },
+  {
+   "chip_id": "USA_275372",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262138
+  },
+  {
+   "chip_id": "USA_308150",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 24,
+   "scored_pixels": 262027
+  },
+  {
+   "chip_id": "USA_347609",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 204416
+  },
+  {
+   "chip_id": "USA_348639",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 740,
+   "scored_pixels": 262118
+  },
+  {
+   "chip_id": "USA_350244",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1267,
+   "scored_pixels": 262120
+  },
+  {
+   "chip_id": "USA_354981",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 371,
+   "scored_pixels": 262011
+  },
+  {
+   "chip_id": "USA_366607",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 24,
+   "scored_pixels": 262139
+  },
+  {
+   "chip_id": "USA_375183",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 767,
+   "scored_pixels": 262065
+  },
+  {
+   "chip_id": "USA_387945",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 12,
+   "scored_pixels": 262139
+  },
+  {
+   "chip_id": "USA_430764",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 128,
+   "scored_pixels": 262137
+  },
+  {
+   "chip_id": "USA_438959",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 109,
+   "scored_pixels": 259715
+  },
+  {
+   "chip_id": "USA_486103",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 1363,
+   "scored_pixels": 262060
+  },
+  {
+   "chip_id": "USA_504150",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 8979,
+   "scored_pixels": 262126
+  },
+  {
+   "chip_id": "USA_519181",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 8549,
+   "scored_pixels": 262127
+  },
+  {
+   "chip_id": "USA_527077",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 36,
+   "scored_pixels": 262127
+  },
+  {
+   "chip_id": "USA_58086",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 16,
+   "scored_pixels": 262112
+  },
+  {
+   "chip_id": "USA_595451",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 21,
+   "scored_pixels": 262136
+  },
+  {
+   "chip_id": "USA_604222",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2007,
+   "scored_pixels": 262123
+  },
+  {
+   "chip_id": "USA_605492",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 108,
+   "scored_pixels": 262125
+  },
+  {
+   "chip_id": "USA_638521",
+   "event": "USA",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 37645,
+   "scored_pixels": 262141
+  },
+  {
+   "chip_id": "USA_646878",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 686,
+   "scored_pixels": 252974
+  },
+  {
+   "chip_id": "USA_652955",
+   "event": "USA",
+   "stratum": "cloudy",
+   "cloud_pixels_scored": 119207,
+   "scored_pixels": 262141
+  },
+  {
+   "chip_id": "USA_655230",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262129
+  },
+  {
+   "chip_id": "USA_66026",
+   "event": "USA",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 28681,
+   "scored_pixels": 262141
+  },
+  {
+   "chip_id": "USA_664261",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262115
+  },
+  {
+   "chip_id": "USA_66511",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 55,
+   "scored_pixels": 262136
+  },
+  {
+   "chip_id": "USA_670826",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 23,
+   "scored_pixels": 262132
+  },
+  {
+   "chip_id": "USA_67102",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 18,
+   "scored_pixels": 262091
+  },
+  {
+   "chip_id": "USA_693819",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262104
+  },
+  {
+   "chip_id": "USA_741073",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 22,
+   "scored_pixels": 262115
+  },
+  {
+   "chip_id": "USA_741178",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 2342,
+   "scored_pixels": 262117
+  },
+  {
+   "chip_id": "USA_758178",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 39,
+   "scored_pixels": 262133
+  },
+  {
+   "chip_id": "USA_761032",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262125
+  },
+  {
+   "chip_id": "USA_770353",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 7087,
+   "scored_pixels": 262141
+  },
+  {
+   "chip_id": "USA_778194",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 100,
+   "scored_pixels": 262070
+  },
+  {
+   "chip_id": "USA_788696",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 134,
+   "scored_pixels": 262126
+  },
+  {
+   "chip_id": "USA_806273",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 8,
+   "scored_pixels": 262131
+  },
+  {
+   "chip_id": "USA_826217",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262126
+  },
+  {
+   "chip_id": "USA_831672",
+   "event": "USA",
+   "stratum": "partly_cloudy",
+   "cloud_pixels_scored": 19877,
+   "scored_pixels": 262116
+  },
+  {
+   "chip_id": "USA_84195",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262137
+  },
+  {
+   "chip_id": "USA_86502",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262132
+  },
+  {
+   "chip_id": "USA_905409",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262099
+  },
+  {
+   "chip_id": "USA_908474",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 462,
+   "scored_pixels": 262071
+  },
+  {
+   "chip_id": "USA_933610",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 51,
+   "scored_pixels": 262027
+  },
+  {
+   "chip_id": "USA_955053",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262140
+  },
+  {
+   "chip_id": "USA_986268",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 0,
+   "scored_pixels": 262123
+  },
+  {
+   "chip_id": "USA_994009",
+   "event": "USA",
+   "stratum": "clear",
+   "cloud_pixels_scored": 103,
+   "scored_pixels": 262018
+  }
+ ],
+ "all_water": {
+  "events": [
+   "Bolivia",
+   "Ghana",
+   "India",
+   "Mekong",
+   "Nigeria",
+   "Pakistan",
+   "Paraguay",
+   "Somalia",
+   "Spain",
+   "Sri-Lanka",
+   "USA"
+  ],
+  "event_iou": {
+   "index_tuned": {
+    "Bolivia": 0.7026017948031075,
+    "Ghana": 0.6437263706976052,
+    "India": 0.6656522231967652,
+    "Mekong": 0.893248398481778,
+    "Nigeria": 0.8873591600035831,
+    "Pakistan": 0.6095373532737297,
+    "Paraguay": 0.5567139268131934,
+    "Somalia": 0.6666463769880262,
+    "Spain": 0.791877090831914,
+    "Sri-Lanka": 0.8224989338024602,
+    "USA": 0.6124640564904575
+   },
+   "index_mndwi_t0": {
+    "Bolivia": 0.5513617981907655,
+    "Ghana": 0.683652137827288,
+    "India": 0.5028822948999644,
+    "Mekong": 0.7972479974621303,
+    "Nigeria": 0.8123119622249165,
+    "Pakistan": 0.5042127497671245,
+    "Paraguay": 0.41581862620770366,
+    "Somalia": 0.5248887940824022,
+    "Spain": 0.7545277633919948,
+    "Sri-Lanka": 0.5500021984935246,
+    "USA": 0.7415783130068845
+   },
+   "index_otsu_mndwi": {
+    "Bolivia": 0.4427438963820975,
+    "Ghana": 0.135911029291823,
+    "India": 0.393327107643889,
+    "Mekong": 0.681253761271558,
+    "Nigeria": 0.6051744324867022,
+    "Pakistan": 0.1951928302526432,
+    "Paraguay": 0.22544209500490736,
+    "Somalia": 0.2620020779540436,
+    "Spain": 0.5054439265279635,
+    "Sri-Lanka": 0.3672066672190478,
+    "USA": 0.18279908557019045
+   },
+   "index_otsu_ndwi": {
+    "Bolivia": 0.4322544991470242,
+    "Ghana": 0.1474949040573524,
+    "India": 0.3269247003777644,
+    "Mekong": 0.5868536665442445,
+    "Nigeria": 0.46081366103197324,
+    "Pakistan": 0.11140463362953135,
+    "Paraguay": 0.18331022592127258,
+    "Somalia": 0.16521505853392507,
+    "Spain": 0.271089710690246,
+    "Sri-Lanka": 0.3238498872718207,
+    "USA": 0.10884816653158287
+   },
+   "unet_r34_scratch": {
+    "Bolivia": 0.7881283671450016,
+    "Ghana": 0.6617619280320975,
+    "India": 0.7358286710620637,
+    "Mekong": 0.9248355944229112,
+    "Nigeria": 0.8991874628974741,
+    "Pakistan": 0.6133497037647583,
+    "Paraguay": 0.5630899089231578,
+    "Somalia": 0.6756687125184527,
+    "Spain": 0.843367657884873,
+    "Sri-Lanka": 0.8146116892207499,
+    "USA": 0.7892931789777458
+   },
+   "unet_r50_ssl4eo": {
+    "Bolivia": 0.783016027814328,
+    "Ghana": 0.6846090108806037,
+    "India": 0.7460812090419097,
+    "Mekong": 0.9272124428363245,
+    "Nigeria": 0.899505256499475,
+    "Pakistan": 0.6628218075623543,
+    "Paraguay": 0.5334603429588919,
+    "Somalia": 0.7432013442588797,
+    "Spain": 0.8462023433993808,
+    "Sri-Lanka": 0.8377661917968499,
+    "USA": 0.8003602540760498
+   }
+  },
+  "summary_mean_event_iou": {
+   "index_tuned": 0.7138477895802382,
+   "index_mndwi_t0": 0.6216804214140637,
+   "index_otsu_mndwi": 0.3633179008731696,
+   "index_otsu_ndwi": 0.2834599194306125,
+   "unet_r34_scratch": 0.7553748068044807,
+   "unet_r50_ssl4eo": 0.7694760210113679
+  },
+  "chip_count_weighted_mean_event_iou": {
+   "index_tuned": 0.6842021164620611,
+   "index_mndwi_t0": 0.6039694406285313,
+   "index_otsu_mndwi": 0.3215943132812263,
+   "index_otsu_ndwi": 0.2508760201351165,
+   "unet_r34_scratch": 0.7346880771242735,
+   "unet_r50_ssl4eo": 0.7455071643669686
+  },
+  "pooled_iou_all_chips": {
+   "index_tuned": 0.7311514473028461,
+   "index_mndwi_t0": 0.5938437728023749,
+   "index_otsu_mndwi": 0.32639434428999686,
+   "index_otsu_ndwi": 0.24789435505044619,
+   "unet_r34_scratch": 0.7709411911905143,
+   "unet_r50_ssl4eo": 0.7790888759440561
+  },
+  "primary": {
+   "a": "unet_r34_scratch",
+   "b": "index_tuned",
+   "per_event": {
+    "Bolivia": 0.08552657234189409,
+    "Ghana": 0.018035557334492358,
+    "India": 0.07017644786529853,
+    "Mekong": 0.03158719594113324,
+    "Nigeria": 0.01182830289389103,
+    "Pakistan": 0.003812350491028571,
+    "Paraguay": 0.006375982109964373,
+    "Somalia": 0.009022335530426528,
+    "Spain": 0.05149056705295896,
+    "Sri-Lanka": -0.007887244581710307,
+    "USA": 0.17682912248728822
+   },
+   "defined_pairs": 11,
+   "events": 11,
+   "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+   "mean": 0.041527017224242325,
+   "ci95": [
+    0.015367572025222523,
+    0.0742420821165612
+   ],
+   "leave_one_event_out_means": {
+    "Bolivia": 0.03712706171247715,
+    "Ghana": 0.04387616321321732,
+    "India": 0.03866207416013671,
+    "Mekong": 0.04252099935255323,
+    "Nigeria": 0.04449688865727745,
+    "Pakistan": 0.045298483897563704,
+    "Paraguay": 0.04504212073567012,
+    "Somalia": 0.0447774853936239,
+    "Spain": 0.04053066224137066,
+    "Sri-Lanka": 0.04646844340483759,
+    "USA": 0.027996806697937738
+   },
+   "better_on_unseen_events": true,
+   "label": "primary"
+  },
+  "secondary": [
+   {
+    "a": "unet_r50_ssl4eo",
+    "b": "index_tuned",
+    "per_event": {
+     "Bolivia": 0.08041423301122053,
+     "Ghana": 0.040882640182998475,
+     "India": 0.08042898584514446,
+     "Mekong": 0.033964044354546585,
+     "Nigeria": 0.012146096495891934,
+     "Pakistan": 0.053284454288624605,
+     "Paraguay": -0.02325358385430154,
+     "Somalia": 0.07655496727085354,
+     "Spain": 0.054325252567466786,
+     "Sri-Lanka": 0.01526725799438966,
+     "USA": 0.18789619758559228
+    },
+    "defined_pairs": 11,
+    "events": 11,
+    "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+    "mean": 0.05562823143112976,
+    "ci95": [
+     0.02745792903015682,
+     0.08835959957814524
+    ],
+    "leave_one_event_out_means": {
+     "Bolivia": 0.05314963127312068,
+     "Ghana": 0.05710279055594288,
+     "India": 0.05314815598972829,
+     "Mekong": 0.057794650138788074,
+     "Nigeria": 0.05997644492465354,
+     "Pakistan": 0.05586260914538027,
+     "Paraguay": 0.06351641295967289,
+     "Somalia": 0.053535557847157376,
+     "Spain": 0.05575852931749605,
+     "Sri-Lanka": 0.059664328774803765,
+     "USA": 0.0424014348156835
+    },
+    "label": "exploratory"
+   },
+   {
+    "a": "unet_r50_ssl4eo",
+    "b": "unet_r34_scratch",
+    "per_event": {
+     "Bolivia": -0.005112339330673565,
+     "Ghana": 0.022847082848506117,
+     "India": 0.010252537979845933,
+     "Mekong": 0.002376848413413346,
+     "Nigeria": 0.00031779360200090423,
+     "Pakistan": 0.049472103797596034,
+     "Paraguay": -0.029629565964265914,
+     "Somalia": 0.06753263174042701,
+     "Spain": 0.0028346855145078287,
+     "Sri-Lanka": 0.023154502576099967,
+     "USA": 0.011067075098304069
+    },
+    "defined_pairs": 11,
+    "events": 11,
+    "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+    "mean": 0.01410121420688743,
+    "ci95": [
+     -0.0003778314612940351,
+     0.029966104926003927
+    ],
+    "leave_one_event_out_means": {
+     "Bolivia": 0.01602256956064353,
+     "Ghana": 0.013226627342725561,
+     "India": 0.014486081829591579,
+     "Mekong": 0.015273650786234837,
+     "Nigeria": 0.015479556267376082,
+     "Pakistan": 0.01056412524781657,
+     "Paraguay": 0.018474292224002764,
+     "Somalia": 0.008758072453533472,
+     "Spain": 0.01522786707612539,
+     "Sri-Lanka": 0.013195885369966177,
+     "USA": 0.014404628117745765
+    },
+    "label": "exploratory"
+   }
+  ],
+  "index_sensitivity": [
+   {
+    "a": "unet_r34_scratch",
+    "b": "index_mndwi_t0",
+    "per_event": {
+     "Bolivia": 0.2367665689542361,
+     "Ghana": -0.021890209795190407,
+     "India": 0.23294637616209934,
+     "Mekong": 0.12758759696078092,
+     "Nigeria": 0.08687550067255756,
+     "Pakistan": 0.10913695399763379,
+     "Paraguay": 0.14727128271545414,
+     "Somalia": 0.15077991843605054,
+     "Spain": 0.08883989449287821,
+     "Sri-Lanka": 0.2646094907272253,
+     "USA": 0.047714865970861275
+    },
+    "defined_pairs": 11,
+    "events": 11,
+    "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+    "mean": 0.13369438539041695,
+    "ci95": [
+     0.0854017145438458,
+     0.18247595443288084
+    ],
+    "leave_one_event_out_means": {
+     "Bolivia": 0.12338716703403504,
+     "Ghana": 0.1492528449089777,
+     "India": 0.12376918631324876,
+     "Mekong": 0.1343050642333806,
+     "Nigeria": 0.13837627386220291,
+     "Pakistan": 0.13615012852969527,
+     "Paraguay": 0.13233669565791323,
+     "Somalia": 0.13198583208585363,
+     "Spain": 0.13817983448017085,
+     "Sri-Lanka": 0.12060287485673613,
+     "USA": 0.1422923373323725
+    },
+    "label": "sensitivity"
+   },
+   {
+    "a": "unet_r34_scratch",
+    "b": "index_otsu_mndwi",
+    "per_event": {
+     "Bolivia": 0.34538447076290407,
+     "Ghana": 0.5258508987402746,
+     "India": 0.3425015634181747,
+     "Mekong": 0.24358183315135318,
+     "Nigeria": 0.29401303041077187,
+     "Pakistan": 0.41815687351211506,
+     "Paraguay": 0.33764781391825044,
+     "Somalia": 0.4136666345644091,
+     "Spain": 0.33792373135690945,
+     "Sri-Lanka": 0.44740502200170207,
+     "USA": 0.6064940934075553
+    },
+    "defined_pairs": 11,
+    "events": 11,
+    "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+    "mean": 0.39205690593131093,
+    "ci95": [
+     0.33456421561541844,
+     0.45408575046796235
+    ],
+    "leave_one_event_out_means": {
+     "Bolivia": 0.3967241494481516,
+     "Ghana": 0.37867750665041455,
+     "India": 0.39701244018262455,
+     "Mekong": 0.4069044132093067,
+     "Nigeria": 0.4018612934833648,
+     "Pakistan": 0.38944690917323055,
+     "Paraguay": 0.39749781513261695,
+     "Somalia": 0.3898959330680011,
+     "Spain": 0.397470223388751,
+     "Sri-Lanka": 0.38652209432427176,
+     "USA": 0.37061318718368647
+    },
+    "label": "sensitivity"
+   },
+   {
+    "a": "unet_r34_scratch",
+    "b": "index_otsu_ndwi",
+    "per_event": {
+     "Bolivia": 0.3558738679979774,
+     "Ghana": 0.5142670239747451,
+     "India": 0.40890397068429934,
+     "Mekong": 0.33798192787866665,
+     "Nigeria": 0.43837380186550085,
+     "Pakistan": 0.5019450701352269,
+     "Paraguay": 0.37977968300188525,
+     "Somalia": 0.5104536539845277,
+     "Spain": 0.572277947194627,
+     "Sri-Lanka": 0.4907618019489292,
+     "USA": 0.6804450124461628
+    },
+    "defined_pairs": 11,
+    "events": 11,
+    "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+    "mean": 0.47191488737386805,
+    "ci95": [
+     0.4186914590856131,
+     0.5309766954330165
+    ],
+    "leave_one_event_out_means": {
+     "Bolivia": 0.48351898931145715,
+     "Ghana": 0.4676796737137803,
+     "India": 0.4782159790428249,
+     "Mekong": 0.4853081833233882,
+     "Nigeria": 0.47526899592470484,
+     "Pakistan": 0.4689118690977322,
+     "Paraguay": 0.48112840781106636,
+     "Somalia": 0.4680610107128021,
+     "Spain": 0.46187858139179216,
+     "Sri-Lanka": 0.4700301959163619,
+     "USA": 0.45106187486663857
+    },
+    "label": "sensitivity"
+   }
+  ],
+  "cloud_strata": {
+   "primary": {
+    "a": "unet_r34_scratch",
+    "b": "index_tuned",
+    "label": "exploratory",
+    "per_stratum": {
+     "clear": {
+      "diff": 0.04998450230580431,
+      "ci95": [
+       0.021534426041789685,
+       0.08772844423679585
+      ],
+      "usable_replicates": 10000,
+      "iou_a": 0.8308601022024837,
+      "iou_b": 0.7808755998966794,
+      "chips": 253,
+      "events": 11,
+      "water_pixels": 7187611
+     },
+     "partly_cloudy": {
+      "diff": 0.05245290136314906,
+      "ci95": [
+       0.005297840760321781,
+       0.10936546955065277
+      ],
+      "usable_replicates": 10000,
+      "iou_a": 0.7750033625314421,
+      "iou_b": 0.722550461168293,
+      "chips": 98,
+      "events": 10,
+      "water_pixels": 2301285
+     },
+     "cloudy": {
+      "diff": -0.004285677571135127,
+      "ci95": [
+       -0.10061218607026724,
+       0.050242873924144005
+      ],
+      "usable_replicates": 10000,
+      "iou_a": 0.449210998968202,
+      "iou_b": 0.4534966765393371,
+      "chips": 90,
+      "events": 10,
+      "water_pixels": 1216709
+     }
+    },
+    "slope_across_strata": {
+     "estimate": -0.027135089938469713,
+     "ci95": [
+      -0.0797203575219412,
+      0.0027526639136770696
+     ],
+     "usable_replicates": 10000
+    },
+    "within_event_slope": {
+     "estimate": -0.019964723846573877,
+     "ci95": [
+      -0.046182016717000555,
+      0.06733420014307273
+     ],
+     "events": [
+      "Bolivia",
+      "Ghana",
+      "India",
+      "Mekong",
+      "Nigeria",
+      "Pakistan",
+      "Paraguay",
+      "Somalia",
+      "Sri-Lanka",
+      "USA"
+     ],
+     "usable_replicates": 10000,
+     "undefined_slopes": "a slope needs at least 2 strata with a defined IoU difference; event occurrences without that are dropped"
+    },
+    "bootstrap_seed": 20261124,
+    "replicates": 10000
+   },
+   "unet_r50_ssl4eo": {
+    "a": "unet_r50_ssl4eo",
+    "b": "index_tuned",
+    "label": "exploratory",
+    "per_stratum": {
+     "clear": {
+      "diff": 0.05229702211788345,
+      "ci95": [
+       0.01646210533377132,
+       0.09451321120382378
+      ],
+      "usable_replicates": 10000,
+      "iou_a": 0.8331726220145629,
+      "iou_b": 0.7808755998966794,
+      "chips": 253,
+      "events": 11,
+      "water_pixels": 7187611
+     },
+     "partly_cloudy": {
+      "diff": 0.06778671087389287,
+      "ci95": [
+       0.028011761755262637,
+       0.12767653263053233
+      ],
+      "usable_replicates": 10000,
+      "iou_a": 0.7903371720421859,
+      "iou_b": 0.722550461168293,
+      "chips": 98,
+      "events": 10,
+      "water_pixels": 2301285
+     },
+     "cloudy": {
+      "diff": 0.02062088216994823,
+      "ci95": [
+       -0.0632330822590087,
+       0.08509742155769155
+      ],
+      "usable_replicates": 10000,
+      "iou_a": 0.47411755870928535,
+      "iou_b": 0.4534966765393371,
+      "chips": 90,
+      "events": 10,
+      "water_pixels": 1216709
+     }
+    },
+    "slope_across_strata": {
+     "estimate": -0.015838069973967608,
+     "ci95": [
+      -0.06332300271335935,
+      0.01726508487777797
+     ],
+     "usable_replicates": 10000
+    },
+    "within_event_slope": {
+     "estimate": -0.0052017478633177095,
+     "ci95": [
+      -0.032594752558897065,
+      0.08168229763267484
+     ],
+     "events": [
+      "Bolivia",
+      "Ghana",
+      "India",
+      "Mekong",
+      "Nigeria",
+      "Pakistan",
+      "Paraguay",
+      "Somalia",
+      "Sri-Lanka",
+      "USA"
+     ],
+     "usable_replicates": 10000,
+     "undefined_slopes": "a slope needs at least 2 strata with a defined IoU difference; event occurrences without that are dropped"
+    },
+    "bootstrap_seed": 20261124,
+    "replicates": 10000
+   }
+  },
+  "examples": {
+   "worst": {
+    "event": "Paraguay",
+    "chip_id": "Paraguay_511199"
+   },
+   "median": {
+    "event": "Bolivia",
+    "chip_id": "Bolivia_60373"
+   },
+   "best": {
+    "event": "Mekong",
+    "chip_id": "Mekong_774566"
+   }
+  }
+ },
+ "flood_only": {
+  "events": [
+   "Bolivia",
+   "Ghana",
+   "India",
+   "Mekong",
+   "Nigeria",
+   "Pakistan",
+   "Paraguay",
+   "Somalia",
+   "Spain",
+   "Sri-Lanka",
+   "USA"
+  ],
+  "event_iou": {
+   "index_tuned": {
+    "Bolivia": 0.6914510821347906,
+    "Ghana": 0.6145156549789058,
+    "India": 0.6036502749661273,
+    "Mekong": 0.8610186591871255,
+    "Nigeria": 0.8784126393894962,
+    "Pakistan": 0.6042601449632661,
+    "Paraguay": 0.35008325956233727,
+    "Somalia": 0.6666463769880262,
+    "Spain": 0.683088368352267,
+    "Sri-Lanka": 0.47641121340084974,
+    "USA": 0.4706273489965965
+   },
+   "index_mndwi_t0": {
+    "Bolivia": 0.5368086886489276,
+    "Ghana": 0.6636135801984288,
+    "India": 0.44620519795186975,
+    "Mekong": 0.7380040907583184,
+    "Nigeria": 0.7986986289291949,
+    "Pakistan": 0.4632936537705587,
+    "Paraguay": 0.3162152916485312,
+    "Somalia": 0.5248887940824022,
+    "Spain": 0.6514112264439645,
+    "Sri-Lanka": 0.2642747409312816,
+    "USA": 0.647084604006501
+   },
+   "index_otsu_mndwi": {
+    "Bolivia": 0.4263433188554623,
+    "Ghana": 0.12649715235420014,
+    "India": 0.3388319075983319,
+    "Mekong": 0.6092094410253156,
+    "Nigeria": 0.5820954302849994,
+    "Pakistan": 0.16094173920394209,
+    "Paraguay": 0.15852352880831616,
+    "Somalia": 0.2620020779540436,
+    "Spain": 0.3767900407151115,
+    "Sri-Lanka": 0.14702956051621904,
+    "USA": 0.12473311279421984
+   },
+   "index_otsu_ndwi": {
+    "Bolivia": 0.4160250168410443,
+    "Ghana": 0.134928874980078,
+    "India": 0.28063603143920374,
+    "Mekong": 0.5020386554621848,
+    "Nigeria": 0.4365936253069097,
+    "Pakistan": 0.08898337556221864,
+    "Paraguay": 0.1263817987734383,
+    "Somalia": 0.16521505853392507,
+    "Spain": 0.1737650811346251,
+    "Sri-Lanka": 0.12497035529295936,
+    "USA": 0.07380653759766363
+   },
+   "unet_r34_scratch": {
+    "Bolivia": 0.7805212240493168,
+    "Ghana": 0.6586731297053924,
+    "India": 0.6830393779766597,
+    "Mekong": 0.8997831105337467,
+    "Nigeria": 0.8906529122151764,
+    "Pakistan": 0.5785368581757403,
+    "Paraguay": 0.364786291610397,
+    "Somalia": 0.6756687125184527,
+    "Spain": 0.7638767757171587,
+    "Sri-Lanka": 0.522666580344158,
+    "USA": 0.6980027251248169
+   },
+   "unet_r50_ssl4eo": {
+    "Bolivia": 0.7778702030980108,
+    "Ghana": 0.6764105432353841,
+    "India": 0.6935087931326459,
+    "Mekong": 0.9040022774457402,
+    "Nigeria": 0.8909883044976498,
+    "Pakistan": 0.6304665340627705,
+    "Paraguay": 0.31900349078434725,
+    "Somalia": 0.7432013442588797,
+    "Spain": 0.7677229854288238,
+    "Sri-Lanka": 0.5674476603134987,
+    "USA": 0.714307341535945
+   }
+  },
+  "summary_mean_event_iou": {
+   "index_tuned": 0.6272877293563442,
+   "index_mndwi_t0": 0.5500453179427254,
+   "index_otsu_mndwi": 0.3011815736463783,
+   "index_otsu_ndwi": 0.22939494644765912,
+   "unet_r34_scratch": 0.683291608906456,
+   "unet_r50_ssl4eo": 0.6986299525266997
+  },
+  "chip_count_weighted_mean_event_iou": {
+   "index_tuned": 0.57424399319464,
+   "index_mndwi_t0": 0.5212260833662398,
+   "index_otsu_mndwi": 0.25461816437419044,
+   "index_otsu_ndwi": 0.1939435857481668,
+   "unet_r34_scratch": 0.6440672104235281,
+   "unet_r50_ssl4eo": 0.6552232301772561
+  },
+  "pooled_iou_all_chips": {
+   "index_tuned": 0.6486937644730942,
+   "index_mndwi_t0": 0.5097652448728784,
+   "index_otsu_mndwi": 0.253718202200401,
+   "index_otsu_ndwi": 0.18775365058496524,
+   "unet_r34_scratch": 0.6985070528130244,
+   "unet_r50_ssl4eo": 0.7073083047817669
+  },
+  "primary": {
+   "a": "unet_r34_scratch",
+   "b": "index_tuned",
+   "per_event": {
+    "Bolivia": 0.08907014191452622,
+    "Ghana": 0.04415747472648657,
+    "India": 0.07938910301053237,
+    "Mekong": 0.03876445134662121,
+    "Nigeria": 0.012240272825680187,
+    "Pakistan": -0.02572328678752578,
+    "Paraguay": 0.014703032048059728,
+    "Somalia": 0.009022335530426528,
+    "Spain": 0.08078840736489168,
+    "Sri-Lanka": 0.046255366943308285,
+    "USA": 0.2273753761282204
+   },
+   "defined_pairs": 11,
+   "events": 11,
+   "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+   "mean": 0.056003879550111574,
+   "ci95": [
+    0.023023885476825882,
+    0.09876234269352949
+   ],
+   "leave_one_event_out_means": {
+    "Bolivia": 0.052697253313670124,
+    "Ghana": 0.05718852003247408,
+    "India": 0.05366535720406951,
+    "Mekong": 0.05772782237046061,
+    "Nigeria": 0.060380240222554726,
+    "Pakistan": 0.06417659618387532,
+    "Paraguay": 0.06013396430031677,
+    "Somalia": 0.06070203395208009,
+    "Spain": 0.05352542676863357,
+    "Sri-Lanka": 0.05697873081079191,
+    "USA": 0.0388667298923007
+   },
+   "label": "sensitivity (flood water only)"
+  },
+  "secondary": [
+   {
+    "a": "unet_r50_ssl4eo",
+    "b": "index_tuned",
+    "per_event": {
+     "Bolivia": 0.08641912096322024,
+     "Ghana": 0.061894888256478264,
+     "India": 0.08985851816651858,
+     "Mekong": 0.04298361825861474,
+     "Nigeria": 0.012575665108153555,
+     "Pakistan": 0.026206389099504457,
+     "Paraguay": -0.031079768777990013,
+     "Somalia": 0.07655496727085354,
+     "Spain": 0.08463461707655673,
+     "Sri-Lanka": 0.09103644691264895,
+     "USA": 0.24367999253934852
+    },
+    "defined_pairs": 11,
+    "events": 11,
+    "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+    "mean": 0.07134222317035523,
+    "ci95": [
+     0.03694228498799717,
+     0.11424239420171876
+    ],
+    "leave_one_event_out_means": {
+     "Bolivia": 0.06983453339106874,
+     "Ghana": 0.07228695666174292,
+     "India": 0.0694905936707389,
+     "Mekong": 0.07417808366152928,
+     "Nigeria": 0.0772188789765754,
+     "Pakistan": 0.07585580657744032,
+     "Paraguay": 0.08158442236518974,
+     "Somalia": 0.0708209487603054,
+     "Spain": 0.07001298377973508,
+     "Sri-Lanka": 0.06937280079612587,
+     "USA": 0.0541084462334559
+    },
+    "label": "exploratory"
+   },
+   {
+    "a": "unet_r50_ssl4eo",
+    "b": "unet_r34_scratch",
+    "per_event": {
+     "Bolivia": -0.0026510209513059824,
+     "Ghana": 0.017737413529991697,
+     "India": 0.010469415155986206,
+     "Mekong": 0.004219166911993533,
+     "Nigeria": 0.00033539228247336794,
+     "Pakistan": 0.051929675887030236,
+     "Paraguay": -0.04578280082604974,
+     "Somalia": 0.06753263174042701,
+     "Spain": 0.0038462097116650495,
+     "Sri-Lanka": 0.044781079969340665,
+     "USA": 0.016304616411128126
+    },
+    "defined_pairs": 11,
+    "events": 11,
+    "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+    "mean": 0.01533834362024365,
+    "ci95": [
+     -0.0017423421326384777,
+     0.03274009319437145
+    ],
+    "leave_one_event_out_means": {
+     "Bolivia": 0.017137280077398613,
+     "Ghana": 0.015098436629268847,
+     "India": 0.015825236466669397,
+     "Mekong": 0.016450261291068663,
+     "Nigeria": 0.01683863875402068,
+     "Pakistan": 0.011679210393564992,
+     "Paraguay": 0.02145045806487299,
+     "Somalia": 0.010118914808225316,
+     "Spain": 0.016487557011101512,
+     "Sri-Lanka": 0.01239406998533395,
+     "USA": 0.015241716341155204
+    },
+    "label": "exploratory"
+   }
+  ],
+  "index_sensitivity": [
+   {
+    "a": "unet_r34_scratch",
+    "b": "index_mndwi_t0",
+    "per_event": {
+     "Bolivia": 0.24371253540038917,
+     "Ghana": -0.004940450493036375,
+     "India": 0.23683418002478995,
+     "Mekong": 0.1617790197754283,
+     "Nigeria": 0.09195428328598154,
+     "Pakistan": 0.1152432044051816,
+     "Paraguay": 0.04857099996186581,
+     "Somalia": 0.15077991843605054,
+     "Spain": 0.11246554927319419,
+     "Sri-Lanka": 0.2583918394128764,
+     "USA": 0.05091812111831584
+    },
+    "defined_pairs": 11,
+    "events": 11,
+    "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+    "mean": 0.13324629096373064,
+    "ci95": [
+     0.08495590522736014,
+     0.18199711994417117
+    ],
+    "leave_one_event_out_means": {
+     "Bolivia": 0.12219966652006478,
+     "Ghana": 0.1470649651094073,
+     "India": 0.1228875020576247,
+     "Mekong": 0.13039301808256087,
+     "Nigeria": 0.13737549173150554,
+     "Pakistan": 0.13504659961958554,
+     "Paraguay": 0.1417138200639171,
+     "Somalia": 0.13149292821649863,
+     "Spain": 0.13532436513278429,
+     "Sri-Lanka": 0.12073173611881607,
+     "USA": 0.14147910794827212
+    },
+    "label": "sensitivity"
+   },
+   {
+    "a": "unet_r34_scratch",
+    "b": "index_otsu_mndwi",
+    "per_event": {
+     "Bolivia": 0.3541779051938545,
+     "Ghana": 0.5321759773511923,
+     "India": 0.3442074703783278,
+     "Mekong": 0.2905736695084311,
+     "Nigeria": 0.30855748193017696,
+     "Pakistan": 0.41759511897179824,
+     "Paraguay": 0.20626276280208083,
+     "Somalia": 0.4136666345644091,
+     "Spain": 0.3870867350020472,
+     "Sri-Lanka": 0.37563701982793896,
+     "USA": 0.573269612330597
+    },
+    "defined_pairs": 11,
+    "events": 11,
+    "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+    "mean": 0.38211003526007764,
+    "ci95": [
+     0.32423439105935997,
+     0.4405414198646031
+    ],
+    "leave_one_event_out_means": {
+     "Bolivia": 0.38490324826669997,
+     "Ghana": 0.36710344105096626,
+     "India": 0.3859002917482527,
+     "Mekong": 0.3912636718352423,
+     "Nigeria": 0.3894652905930677,
+     "Pakistan": 0.3785615268889056,
+     "Paraguay": 0.3996947625058773,
+     "Somalia": 0.3789543753296445,
+     "Spain": 0.3816123652858807,
+     "Sri-Lanka": 0.38275733680329155,
+     "USA": 0.3629940775530257
+    },
+    "label": "sensitivity"
+   },
+   {
+    "a": "unet_r34_scratch",
+    "b": "index_otsu_ndwi",
+    "per_event": {
+     "Bolivia": 0.36449620720827247,
+     "Ghana": 0.5237442547253144,
+     "India": 0.40240334653745596,
+     "Mekong": 0.39774445507156186,
+     "Nigeria": 0.4540592869082667,
+     "Pakistan": 0.48955348261352166,
+     "Paraguay": 0.2384044928369587,
+     "Somalia": 0.5104536539845277,
+     "Spain": 0.5901116945825337,
+     "Sri-Lanka": 0.39769622505119867,
+     "USA": 0.6241961875271532
+    },
+    "defined_pairs": 11,
+    "events": 11,
+    "interval": "paired event bootstrap, percentile, approximate and conditional on the fitted folds",
+    "mean": 0.4538966624587968,
+    "ci95": [
+     0.39129066394948375,
+     0.5138263887353771
+    ],
+    "leave_one_event_out_means": {
+     "Bolivia": 0.4628367079838493,
+     "Ghana": 0.446911903232145,
+     "India": 0.45904599405093094,
+     "Mekong": 0.45951188319752034,
+     "Nigeria": 0.4538804000138499,
+     "Pakistan": 0.4503309804433243,
+     "Paraguay": 0.4754458794209807,
+     "Somalia": 0.44824096330622376,
+     "Spain": 0.4402751592464232,
+     "Sri-Lanka": 0.4595167061995566,
+     "USA": 0.43686670995196114
+    },
+    "label": "sensitivity"
+   }
+  ]
+ }
+}

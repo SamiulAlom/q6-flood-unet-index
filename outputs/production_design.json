@@ -1,0 +1,18 @@
+{
+ "epochs": 60,
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "estimated_hours": 11.08,
+ "estimate_60_epochs_3_seeds_hours": 11.08,
+ "seconds_per_fitting_chip_epoch": {
+  "unet_r34_scratch": 0.02223905723905724,
+  "unet_r50_ssl4eo": 0.03205387205387206
+ },
+ "gpu": [
+  "Tesla T4"
+ ],
+ "rule": "compute_plan.md cost rule, timing records only"
+}
